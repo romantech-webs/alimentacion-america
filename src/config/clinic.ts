@@ -2,7 +2,7 @@ export const clinic = {
   name: "Alimentación América",
   logo: "/images/logo.png",
   tagline: "Tu tienda de alimentación de confianza en Albacete",
-  description: "Alimentación América es tu tienda de barrio en Albacete donde encontrarás todo lo que necesitas para el día a día. Ofrecemos gran variedad de productos frescos, pan recién horneado, dulces artesanales y productos de alimentación básica. Además, prestamos servicio de paquetería como punto de conveniencia para los vecinos. Atención cercana y personalizada en cada visita.",
+  description: "Alimentación América es tu tienda de barrio en Albacete donde encontrarás todo lo que necesitas para el día a día. Ofrecemos gran variedad de productos frescos, pan y dulces recién hechos, además de servicio de paquetería para tu comodidad. Atención cercana y personalizada con un equipo que te atiende con rapidez y profesionalidad. Tu compra diaria, más fácil y cerca de casa.",
   colors: {
     primary: "#a98752",
     secondary: "#181722",
@@ -75,66 +75,88 @@ export const clinic = {
     {
       id: "productos-frescos",
       name: "Productos Frescos Diarios",
-      description: "Selección diaria de productos frescos de calidad para tu alimentación. Renovamos nuestro surtido constantemente para ofrecerte la mejor frescura y variedad en cada compra.",
+      description: "Selección diaria de productos frescos de calidad para tu alimentación. Frutas, verduras, lácteos y todo lo necesario para una dieta equilibrada. Renovamos nuestro stock constantemente para garantizar la máxima frescura.",
       benefits: [
         "Productos frescos renovados diariamente",
-        "Calidad garantizada en cada producto",
-        "Amplia variedad para todas las necesidades"
+        "Calidad garantizada en cada compra",
+        "Variedad adaptada a tus necesidades"
       ],
       icon: "Apple"
     },
     {
       id: "panaderia-dulces",
       name: "Panadería y Dulces",
-      description: "Gran variedad de pan recién horneado y dulces artesanales que traemos cada día. Perfecto para tu desayuno, merienda o para endulzar cualquier momento del día con productos de máxima calidad.",
+      description: "Gran variedad de pan recién hecho y dulces artesanales que llegan cada día. Desde pan de barra tradicional hasta bollería variada para todos los gustos. Perfecto para empezar el día con energía o disfrutar de un capricho dulce.",
       benefits: [
-        "Pan fresco todos los días",
-        "Amplia variedad de dulces artesanales",
-        "Productos de repostería de calidad"
+        "Pan recién horneado a diario",
+        "Amplia variedad de dulces y bollería",
+        "Sabor tradicional y calidad artesanal"
       ],
       icon: "Heart"
     },
     {
       id: "alimentacion-basica",
       name: "Alimentación Básica",
-      description: "Tenemos un poquito de todo para que no te falte nada en casa. Productos de alimentación esenciales para tu día a día a precios justos y con la comodidad de tenerlo en tu barrio.",
+      description: "Todo lo esencial para tu despensa en un solo lugar. Conservas, legumbres, pasta, arroz, aceites y productos básicos de alimentación. No hace falta ir lejos para encontrar lo que necesitas en tu día a día.",
       benefits: [
-        "Todo lo necesario en un solo lugar",
+        "Un poquito de todo lo que necesitas",
         "Precios correctos y competitivos",
         "Ahorra tiempo comprando cerca de casa"
       ],
       icon: "Target"
     },
     {
-      id: "servicio-paqueteria",
-      name: "Punto de Recogida de Paquetes",
-      description: "Servicio de paquetería a pie de casa para mayor comodidad de los vecinos. Recoge y envía tus paquetes sin desplazamientos, actuando como intermediarios para facilitarte la gestión de tus envíos.",
+      id: "bebidas-refrescos",
+      name: "Bebidas y Refrescos",
+      description: "Amplio surtido de bebidas para toda la familia. Agua, refrescos, zumos, bebidas energéticas y más. Mantén tu nevera siempre llena sin tener que desplazarte lejos de tu barrio.",
       benefits: [
-        "Recogida de paquetes en tu barrio",
-        "Horario amplio y flexible",
-        "Servicio rápido y eficiente"
+        "Variedad de marcas y opciones",
+        "Formato individual y familiar",
+        "Siempre frío y listo para llevar"
       ],
       icon: "TrendingDown"
     },
     {
-      id: "compra-diaria",
-      name: "Compra del Día a Día",
-      description: "Solución completa para tu compra diaria sin necesidad de desplazarte a grandes superficies. Todo lo que necesitas para tu hogar en un espacio cercano y de confianza con atención personalizada.",
+      id: "servicio-paqueteria",
+      name: "Servicio de Paquetería",
+      description: "Punto de recogida y envío de paquetes a pie de calle. Hacemos de intermediarios para ofrecerte comodidad sin moverte de tu barrio. Un servicio extra que facilita tu día a día.",
       benefits: [
-        "Compra rápida y sin esperas",
-        "Trato personalizado y cercano",
-        "Comodidad a pie de casa"
+        "Recoge tus paquetes sin desplazamientos",
+        "Envía cómodamente desde el barrio",
+        "Horario amplio adaptado a ti"
+      ],
+      icon: "Target"
+    },
+    {
+      id: "productos-snacks",
+      name: "Snacks y Aperitivos",
+      description: "Selección de snacks, patatas, frutos secos y aperitivos para cualquier momento. Ideal para tener siempre algo a mano en casa o para llevar contigo. Variedad para todos los gustos y ocasiones.",
+      benefits: [
+        "Opciones dulces y saladas",
+        "Formatos individuales y para compartir",
+        "Perfectos para cualquier ocasión"
       ],
       icon: "Apple"
     },
     {
+      id: "productos-higiene",
+      name: "Productos de Higiene y Limpieza",
+      description: "Artículos básicos de higiene personal y limpieza del hogar. Desde gel y champú hasta detergentes y productos de limpieza. Todo lo necesario para mantener tu hogar impecable.",
+      benefits: [
+        "Productos de primeras marcas",
+        "Lo esencial siempre disponible",
+        "Compra rápida sin colas"
+      ],
+      icon: "Heart"
+    },
+    {
       id: "atencion-personalizada",
       name: "Atención Personalizada",
-      description: "Nuestro equipo te atiende con amabilidad y profesionalidad en cada visita. Las chicas del establecimiento se esfuerzan por ofrecerte un servicio rápido y eficiente, cuidando cada detalle de tu experiencia de compra.",
+      description: "Nuestro equipo te atiende con amabilidad y rapidez, conociendo tus preferencias. Un trato cercano que hace la diferencia en tu experiencia de compra. Como en las tiendas de toda la vida.",
       benefits: [
-        "Trato amable y profesional",
+        "Trato familiar y cercano",
         "Atención rápida y eficiente",
-        "Asesoramiento personalizado"
+        "Te conocemos y cuidamos cada detalle"
       ],
       icon: "Heart"
     }
@@ -143,44 +165,44 @@ export const clinic = {
     {
       step: 1,
       title: "Visítanos",
-      description: "Acércate a nuestra tienda en Albacete en nuestro horario de apertura. Estamos ubicados en tu barrio para que tengas todo lo que necesitas cerca de casa."
+      description: "Pásate por nuestra tienda en Albacete en el horario que mejor te venga. Estamos abiertos para atenderte y ayudarte a encontrar lo que necesitas. También puedes llamarnos para consultar disponibilidad de productos."
     },
     {
       step: 2,
       title: "Encuentra lo que Necesitas",
-      description: "Explora nuestra amplia variedad de productos frescos, pan del día, dulces y alimentación básica. Tenemos un poquito de todo para cubrir tus necesidades diarias."
+      description: "Nuestro equipo te ayudará a localizar todos los productos de tu lista. Tenemos un poquito de todo organizado para que tu compra sea rápida y cómoda. Si no encuentras algo, pregúntanos."
     },
     {
       step: 3,
-      title: "Atención Personalizada",
-      description: "Nuestro equipo te atenderá de forma rápida y amable. Te ayudamos a encontrar lo que buscas y te asesoramos en tus compras con el mejor trato personalizado."
+      title: "Pago Rápido",
+      description: "Te atendemos con la mayor rapidez posible para que no pierdas tiempo. Aceptamos diferentes métodos de pago para tu comodidad. Un servicio ágil respetando siempre el tiempo de cada cliente."
     },
     {
       step: 4,
-      title: "Disfruta de la Comodidad",
-      description: "Llévate tus productos y disfruta de la comodidad de comprar en tu barrio. Además, aprovecha nuestro servicio de paquetería para mayor conveniencia."
+      title: "Vuelve Cuando Quieras",
+      description: "Estaremos aquí para tu próxima compra con productos frescos y la misma atención de siempre. Nos gusta verte y cuidarte como parte de nuestro barrio. Tu tienda de confianza para el día a día."
     }
   ],
   whyUs: [
     {
       title: "Valorados por Nuestros Clientes",
-      description: "Contamos con una valoración de 4 estrellas en Google basada en 30 reseñas reales. Nuestros clientes destacan la atención amable, el servicio rápido y la variedad de productos frescos que ofrecemos cada día en Albacete.",
-      icon: "Heart"
+      description: "Con una puntuación de 4 estrellas en Google basada en 30 reseñas reales, nuestros clientes destacan la variedad de productos, la atención personalizada y el servicio rápido. Un equipo amable que te atiende como en las tiendas de toda la vida.",
+      icon: "Award"
     },
     {
-      title: "Atención Personalizada y Cercana",
-      description: "Nuestro equipo te atiende con amabilidad y profesionalidad en cada visita. Las chicas de Alimentación América se esfuerzan por ofrecerte un servicio rápido y eficiente, cuidando cada detalle para que tu experiencia sea excelente.",
-      icon: "Heart"
+      title: "Variedad y Productos Frescos",
+      description: "Gran surtido de pan y dulces recién hechos cada día, además de un poquito de todo lo que necesitas. A pesar del tamaño, conseguimos tener variedad en productos frescos, alimentación básica y más, todo a precios correctos.",
+      icon: "ShoppingBag"
     },
     {
-      title: "Todo lo que Necesitas Cerca de Casa",
-      description: "Tenemos un poquito de todo para tu día a día: productos frescos, pan recién horneado, dulces artesanales y alimentación básica. Ahorra tiempo y desplazamientos comprando en tu barrio con precios correctos y justos.",
-      icon: "Target"
+      title: "Cercanía y Comodidad",
+      description: "Tu tienda de barrio en Albacete donde hacer la compra del día a día sin desplazamientos. Incluimos servicio de paquetería como valor añadido para facilitarte la vida. Todo lo esencial a pie de calle.",
+      icon: "MapPin"
     },
     {
-      title: "Servicios Adicionales de Conveniencia",
-      description: "Además de alimentación, ofrecemos servicio de paquetería como punto de recogida. Un gran servicio a pie de casa que facilita tu día a día sin necesidad de desplazarte a otros puntos más lejanos de la ciudad.",
-      icon: "TrendingDown"
+      title: "Atención Rápida y Profesional",
+      description: "Las chicas del equipo te atienden con amabilidad, buen trato y la mayor rapidez posible. Entendemos que tu tiempo es valioso y nos esforzamos por hacer tu compra ágil y cómoda, cuidando cada detalle del servicio.",
+      icon: "Clock"
     }
   ],
   team: [
@@ -195,59 +217,63 @@ export const clinic = {
     {
       src: "/images/gallery/1.webp",
       alt: "Alimentación América - Imagen 1"
+    },
+    {
+      src: "/images/hero.webp",
+      alt: "Alimentación América - Imagen 2"
     }
   ],
   faq: [
     {
       question: "¿Qué horario tiene Alimentación América?",
-      answer: "Alimentación América abre por las tardes a partir de las 18:00. Sabemos que en ocasiones este horario puede resultar algo tarde para algunos clientes, pero nos esforzamos por ofrecer el mejor servicio durante nuestro horario de apertura. Te recomendamos llamar al 648 08 80 60 para confirmar horarios específicos o días festivos."
+      answer: "Alimentación América abre por la tarde a partir de las 18:00 horas. Sabemos que en ocasiones este horario puede parecer un poco tarde, pero intentamos adaptarnos a las necesidades del barrio. Te recomendamos llamar al 648 08 80 60 si tienes dudas sobre el horario de un día específico o necesitas confirmar disponibilidad de algún producto."
     },
     {
-      question: "¿Qué tipo de productos puedo encontrar en la tienda?",
-      answer: "En Alimentación América encontrarás todo lo necesario para tu día a día. Ofrecemos gran variedad de productos frescos, pan recién horneado, dulces artesanales y productos de alimentación básica. Tenemos un poquito de todo a precios correctos, pensado para que no tengas que desplazarte lejos de tu barrio para hacer la compra diaria."
+      question: "¿Qué tipo de productos puedo encontrar?",
+      answer: "En Alimentación América tenemos un poquito de todo lo que necesitas para tu día a día. Gran variedad de pan y dulces recién hechos, productos frescos, alimentación básica, bebidas, snacks y artículos de higiene. A pesar del tamaño de la tienda, nos esforzamos por tener la mayor variedad posible a precios correctos."
     },
     {
-      question: "¿Ofrecen servicio de recogida de paquetes?",
-      answer: "Sí, Alimentación América actúa como punto de recogida de paquetería para mayor comodidad de los vecinos. Hacemos de intermediarios con las empresas de mensajería, ofreciendo un gran servicio a pie de casa. Puedes recoger y enviar tus paquetes en horario de tienda sin necesidad de desplazarte a otros puntos más lejanos."
+      question: "¿Ofrecen servicio de paquetería?",
+      answer: "Sí, Alimentación América actúa como punto de recogida y envío de paquetes. Hacemos de intermediarios para ofrecerte este servicio adicional a pie de casa, facilitando que no tengas que desplazarte. Es un servicio muy valorado por nuestros vecinos del barrio que pueden recoger sus pedidos cómodamente."
     },
     {
-      question: "¿Tienen pan fresco todos los días?",
-      answer: "Sí, en Alimentación América traemos mucha variedad de pan fresco y dulces diariamente. Renovamos nuestro surtido de panadería cada día para garantizar la máxima frescura y calidad. Es uno de nuestros productos más valorados por los clientes del barrio."
+      question: "¿Cómo es la atención al cliente?",
+      answer: "Nuestro equipo, especialmente las chicas que te atienden, se caracteriza por su amabilidad, buen trato y profesionalidad. Te atendemos lo más rápido posible, aunque como en cualquier comercio puede haber un mínimo de espera en momentos de mayor afluencia. Valoramos mucho la cercanía y el trato personalizado con cada cliente."
     },
     {
-      question: "¿Cuánto tiempo hay que esperar para ser atendido?",
-      answer: "En Alimentación América nos esforzamos por atenderte lo más rápido posible. Como en todos los comercios de barrio, puede haber un mínimo de espera en momentos de mayor afluencia, pero nuestro equipo trabaja con agilidad para que tu experiencia sea óptima. Nuestros clientes valoran especialmente la rapidez y amabilidad del servicio."
+      question: "¿Los precios son competitivos?",
+      answer: "En Alimentación América ofrecemos precios correctos y justos para una tienda de barrio. Aunque no somos un supermercado grande, compensamos con la cercanía, la comodidad de no tener que desplazarte y la atención personalizada. Nuestros clientes valoran la relación calidad-precio y el ahorro de tiempo."
     },
     {
-      question: "¿Por qué elegir Alimentación América frente a grandes superficies?",
-      answer: "Alimentación América te ofrece la comodidad de tener todo lo que necesitas a pie de casa con atención personalizada. Nuestros clientes valoran el trato cercano, la rapidez del servicio y no tener que desplazarse lejos para hacer la compra del día a día. Además, ofrecemos precios correctos y servicios adicionales como punto de paquetería que hacen tu vida más fácil."
+      question: "¿Tienen pan y dulces frescos cada día?",
+      answer: "Sí, recibimos pan y una gran variedad de dulces frescos diariamente. Es uno de nuestros puntos fuertes según nuestros clientes. Puedes encontrar desde pan de barra tradicional hasta bollería variada. Si buscas algo específico, te recomendamos venir temprano o llamarnos para reservarlo."
     },
     {
-      question: "¿Qué opinan los clientes de Alimentación América?",
-      answer: "Alimentación América cuenta con una valoración de 4 estrellas sobre 5 en Google, basada en 30 reseñas de clientes reales. Nuestros clientes destacan especialmente la atención amable y rápida de nuestro equipo, la variedad de productos frescos y dulces, y la comodidad de tener todos los servicios en el barrio. Muchos recomiendan nuestra tienda al 100% por el trato personalizado y la calidad del servicio."
+      question: "¿Puedo llamar para consultar productos?",
+      answer: "Por supuesto, puedes llamar al 648 08 80 60 para consultar la disponibilidad de productos específicos o cualquier duda que tengas. El equipo de Alimentación América estará encantado de atenderte por teléfono y ayudarte con lo que necesites antes de tu visita."
     },
     {
-      question: "¿Cómo puedo contactar con Alimentación América?",
-      answer: "Puedes llamarnos al 648 08 80 60 para cualquier consulta sobre productos, horarios o servicios. También puedes visitarnos directamente en nuestra tienda en Albacete durante nuestro horario de apertura. Nuestro equipo estará encantado de atenderte y resolver todas tus dudas de forma personalizada."
+      question: "¿Por qué elegir Alimentación América?",
+      answer: "Alimentación América cuenta con una valoración de 4 estrellas sobre 5 en Google con 30 reseñas de clientes reales. Nuestros vecinos destacan la variedad de productos, la atención amable y rápida, y la comodidad de tener todo lo necesario a pie de casa. Somos tu tienda de confianza en Albacete donde el trato cercano marca la diferencia."
     }
   ],
   seo: {
     titleTemplate: "%s | Alimentación América",
     defaultTitle: "Alimentación América - Tu Tienda de Barrio en Albacete",
-    defaultDescription: "Tienda de alimentación en Albacete con productos frescos, pan del día, dulces y servicio de paquetería. Atención personalizada y todo lo que necesitas cerca de casa. ☎️ 648 08 80 60",
+    defaultDescription: "Tienda de alimentación en Albacete con productos frescos, pan y dulces diarios, y servicio de paquetería. Atención cercana y todo lo que necesitas a pie de casa. ☎️ 648 08 80 60",
     keywords: [
-      "tienda alimentación Albacete",
+      "tienda de alimentación Albacete",
       "Alimentación América",
       "productos frescos Albacete",
       "panadería Albacete",
       "tienda de barrio Albacete",
-      "punto de recogida paquetes Albacete",
-      "compra diaria Albacete",
-      "dulces artesanales Albacete",
+      "servicio paquetería Albacete",
+      "dulces frescos Albacete",
       "alimentación básica Albacete",
-      "tienda conveniencia Albacete",
-      "comercio local Albacete",
-      "pan fresco Albacete"
+      "tienda convenience Albacete",
+      "compra diaria Albacete",
+      "tienda cerca de casa Albacete",
+      "alimentación América Albacete"
     ],
     ogImage: "/og-image.jpg"
   },
@@ -261,11 +287,11 @@ export const clinic = {
     "Nutrición",
     "en Albacete"
   ],
-  heroDescription: "En Alimentación América te ofrecemos la comodidad de tener todo lo que necesitas a pie de casa. Amplia variedad de productos frescos, pan del día, dulces y alimentación básica con la mejor atención personalizada en Albacete.",
-  specialty: "Tienda de Barrio",
+  heroDescription: "En Alimentación América encontrarás productos frescos y de calidad para tu día a día, con la cercanía y el trato familiar que buscas. Pan recién hecho, dulces variados y todo lo esencial a pie de calle en Albacete, atendido por un equipo que cuida cada detalle.",
+  specialty: "Tienda de barrio",
   ctaLabel: "Tu Plan Nutricional",
-  ctaHeadline: "¿Necesitas hacer la compra del día a día?",
-  ctaDescription: "Visítanos o llámanos al 648 08 80 60. En Alimentación América encontrarás todo lo que necesitas con la mejor atención personalizada.",
+  ctaHeadline: "¿Necesitas hacer la compra sin complicaciones?",
+  ctaDescription: "Visítanos o llámanos y descubre la comodidad de tener tu tienda de confianza cerca de casa. Productos frescos, atención personalizada y todo lo que necesitas en un solo lugar.",
   statsLabel: "Pacientes",
   schemaType: "DieteticsAndNutrition",
   sectionCopy: {
